@@ -26,10 +26,10 @@ function Navbar() {
             <span className='nav-icon'></span>
         </label>
         <ul className='menu'>
-            <li><a herf='#'>Home</a></li>
+            <li><a herf='#' className='active'>Home</a></li>
             <li><a herf='#'>Features</a></li>
             <li><a herf='#'>About</a></li>
-            <li><a herf='#'>UI SS</a></li>
+            <li><a herf='#'>Blog</a></li>
             <li><a herf='#'>Download</a></li>
 
           

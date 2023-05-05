@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,200;1,300;1,400&display=swap');
+
+
 body{
   margin:0px;
   padding: 0px;
@@ -55,7 +58,7 @@ nav ul{
 display: flex;
 }
 .active{
-  background-color: #FFFFFF;
+  background-color: #00b7ff;
   color:#ffffff;
 box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
 transition: all ease 0.2s;
@@ -98,6 +101,12 @@ transform: translate(-22%,-50%);
 }
 .name .details{
   color: #969696;
+}
+.name .details ul li{
+font-weight: bold;
+}
+.name .details ol li{
+font-style: italic;
 }
 .name h1{
 font-family:'Montserrat';
