@@ -6,25 +6,33 @@ const Header = () => {
     <div id='main'>
         <Navbar/>
         <div className='name'>
-          <h1><span>"Reading gives us someplace to go </span>when we have to stay where we are."</h1>
+          <h1><span>"Reading gives us someplace to go </span> <br/> when we have to stay where we are."</h1>
+          <br/>
+          <br/>
           <p className='details'>
-            <ul>
+            {/* <ul>
               <li>#Tips which improves your reading</li>
-            </ul>
+            </ul> */}
 
-            <ol>
+            <ul>
               <li>Set reading goals</li>
               <li>Eliminate distractions</li>
               <li>Practice active reading</li>
               <li>Read regularly</li>
               <li>oin a book club</li>
               <li>Take breaks</li>
-            </ol>
+            </ul>
+
+            <br/>
+            <br/>
+            <br/>
 
             <a href='#' className='cv-btn'>Download</a>
           </p>
         </div>
     </div>
+
+    
   )
 }
 
