@@ -36,7 +36,7 @@ input{
   background-repeat: no-repeat;
   background-size: cover;
   /*background-image: url('./images/background.png');*/
-  background-color: #F2EECA;
+  background-color: #B6CCF1;
 }
 nav{
 display: flex;
@@ -100,13 +100,17 @@ transform: translate(-22%,-50%);
   color: #00b7ff;
 }
 .name .details{
-  color: #969696;
+  font-family: cursive;
+  color: #191919;
+  font-weight: 400;
 }
 .name .details ul li{
+  font-family: Georgia, serif;
+  color: #F0EB8A;
 font-weight: bold;
 }
 .name .details ol li{
-font-style: italic;
+font-style: normal;
 }
 .name h1{
 font-family:'Montserrat';
@@ -201,7 +205,9 @@ background-color: rgb(0, 132, 255);
   color: #ffffff;
 }
 .about-image{
-  width: 50%;
+  box-shadow: 0px 10px 12px rgba(0,0,0,0.1);
+  height: 44%;
+  width: 43.9%;
 }
 .about-image img{
 width: 600px;
