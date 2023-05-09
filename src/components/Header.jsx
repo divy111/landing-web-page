@@ -6,7 +6,7 @@ const Header = () => {
     <div id='main'>
         <Navbar/>
         <div className='name'>
-          <h1><span>"Reading gives us someplace to go </span> <br/> when we have to stay where we are."</h1>
+          <h1><span className='Reading'>"Reading gives us someplace to go </span> <br/> when we have to stay where we are."</h1>
           <br/>
           <br/>
           <p className='details'>
@@ -19,7 +19,7 @@ const Header = () => {
               <li>Eliminate distractions</li>
               <li>Practice active reading</li>
               <li>Read regularly</li>
-              <li>oin a book club</li>
+              <li>Join a book club</li>
               <li>Take breaks</li>
             </ul>
 
