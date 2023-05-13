@@ -30,7 +30,7 @@ function Navbar() {
             <li><a herf='#' className='active'>Home</a></li>
             <li><a herf='#'>Features</a></li>
             <li><a herf='#'>About</a></li>
-            <li><a herf='#'>Blog</a></li>
+            <li><a herf='#'>News</a></li>
             <li><a herf='#'>Download</a></li>
 
           
