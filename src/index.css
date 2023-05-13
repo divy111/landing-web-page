@@ -25,7 +25,7 @@ input{
   border: none;
 }
 .logo img{
-  width: 90px;
+  width: 100px;
 }
 #main{
   flex: auto;
@@ -97,7 +97,7 @@ transform: translate(-22%,-50%);
 }
 .name span{
   animation: text 2s 1;
-  color: #00b7ff;
+  
 }
 @keyframes text{
   0%{
@@ -142,15 +142,17 @@ color:#000000;
   margin-top: 40px;
 }
 .cv-btn{
-width:110px;
-height: 40px;
-display: flex;
-justify-content: center;
+  width:200px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  background-color: #00b7ff;
+  background-color: purple;
   box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
-  border-radius: 10px;
-color:#ffffff;
+  border-radius: 11px;
+  color:#ffffff;
+  font-size: 20px;
+  border-color: white;
 }
 .cv-btn:hover{
 background-color: #0099ff;
@@ -419,7 +421,7 @@ width: 600px;
 }
 
 
-#contact{
+/*#contact{
   background-color: #00b7ff;
 display:flex;
 flex-direction: column;
@@ -465,7 +467,7 @@ border-radius: 20px;
 }
 .contact-input a:hover{
   background-color:#0099ff;
-}
+}*/
 @media(max-width:1190px){
 #main{
   background-size: 1150px !important;
@@ -653,6 +655,17 @@ border-radius: 20px;
 
       }
       .Reading{
-        font-size: 50px;
+        font-size: 55px;
+        color: #00b7ff;
+      }
+
+      .breach{
+        font-size: 92px;
+        color: purple;
+      }
+
+      .imagine{
+        font-size: 70px;
+        color: #00b7ff;
       }
      
