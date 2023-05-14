@@ -8,7 +8,8 @@ function FeatureBox(props) {
         </div>
         <div className='s-b-text'>
             <h2> {props.title} </h2>
-            <p>happy to read novel</p>
+            <p>Welcome to Novel</p>
+           
         </div>
     </div>
   )

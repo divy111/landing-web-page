@@ -37,7 +37,7 @@ const Contact = () => {
     <input type="email" name="user_email" />
     <label>Message</label>
     <textarea name="message" />
-    <input type="submit" value="Send" />
+    <a href='#' className='send-btn'>Send</a>
   </form>
 
   </div>

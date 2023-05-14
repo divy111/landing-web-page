@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+// import headerimage from './images/header.png';
 import Feature from './components/Feature';
 import About from './components/About';
 import aboutimage from './images/about.png';
@@ -12,7 +13,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
-      <Header/>
+       <Header /> 
       <Feature/>
       <About image={aboutimage} title='Comes with all you need' button='GET THE APP'/>
       <Presentation image={presentationimage} title='Comes with all you need'/>

@@ -28,10 +28,10 @@ function Navbar() {
         </label>
         <ul className='menu'>
             <li><a herf='#' className='active'>Home</a></li>
-            <li><a herf='#'>Features</a></li>
+            <li><a herf='#'>Recomendation</a></li>
             <li><a herf='#'>About</a></li>
             <li><a herf='#'>News</a></li>
-            <li><a herf='#'>Download</a></li>
+            <li><a herf='#'>Sign in</a></li>
 
           
         </ul>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar';
 
-const Header = () => {
+function Header () {
   return (
     <div id='main'>
         <Navbar/>
@@ -10,14 +10,11 @@ const Header = () => {
           <h1><span className='breach'>Breaches</span></h1>
           <h1><span className='imagine'>Imagination!</span></h1>
           <br/>
-
-          <p className='details'>
-            {/* <ul>
-              <li>#Tips which improves your reading</li>
-            </ul> */}
+          {/* <div className='Header-img'>
+            <img src={props.image} alt='' />
+          </div> */}
 
             <a href='#' className='cv-btn'>Get Started</a>
-          </p>
         </div>
     </div>
 
